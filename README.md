@@ -1,0 +1,2 @@
+# Credit-Card-Payment-Verification-using-Facial-Recognition
+Creating a secured Payment Gateway that incorporates Facial Recognition for Enhanced security.The User Interface was developed with a combination of HTML, CSS and JavaScript elements. Amazon Rekognition has been used to develop the Facial Recognition Software. This Project implements Deep Learning Techniques. Pandas were used to split the recorded video into separate data frames.For the Back End ,Python API has been used which would retrieve the data and store it in Amazon S3(A software provided by AWS)
