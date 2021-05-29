@@ -1,0 +1,373 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+body {
+line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+display:block;
+}
+
+nav ul {
+list-style:none;
+}
+
+blockquote, q {
+quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+background-color:#ff9;
+color:#000; 
+font-style:italic;
+font-weight:bold;
+}
+
+del {
+text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+display:block;
+height:1px;
+border:0; 
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+
+input, select {
+vertical-align:middle;
+}
+
+/* my styling */
+
+html
+{
+    font-weight: bold;
+}
+
+body
+{
+color : black;
+background-image: url("3.jpg"); /*You will specify your image path here.*/
+background-size: cover;
+background-position: top center;
+background-repeat: no-repeat ;
+
+}
+
+a{
+
+	text-decoration:none;
+	
+}
+
+
+.main-wrapper{
+	 margin: 0 auto;
+	 width: 1000px;
+     
+	 }
+
+header nav {
+	   width: 100%;
+	   height: 60px;
+       background-image:linear-gradient(rgba(66, 64, 64, 0.53),rgba(28, 27, 27, 0.5)););     
+	   }
+	   
+header nav ul li  {
+	   float : left;
+	   list-style : none;
+}
+
+header nav ul li  a {
+	font-family: arial;
+	font-size: 16px;
+	color: white;
+	line-height: 63px;
+	
+}
+
+header .nav-login {
+	  float: right;
+}
+
+header .nav-login form {
+	  float: left;
+	  padding-top: 15px;
+	  
+}
+
+header .nav-login form input {
+	  float: left;
+	  width: 140px;
+	  height: 30px;
+	  padding: 0px 10px;
+	  margin-right: 10px;
+	  border: none;
+	  background-color :#fff;
+	  font-family: arial;
+	  font-size: 16px;
+	  color: #111;
+	  line-height: 63px;
+}	
+
+header .nav-login form input button {
+	  float: left;
+	  width: 60px;
+	  height: 30px;
+	  margin-right: 10px;
+	  border: none;
+	  border-color :#f3f3f3;
+	  font-family: arial;
+	  font-size: 16px;
+	  color: #111;
+	  cursor : pointer;
+	  
+}  
+
+header .nav-login form  button:hover {
+	  background-color: #ccc;
+	  cursor : pointer;
+	  	  	  
+} 
+
+header .nav-login a   button:hover {
+	  background-color: #ccc;
+	  cursor : pointer;
+	  	  	  
+} 
+
+header .nav-login  a {
+
+	padding-left: 20px;
+	height: 60px;
+	border: none;
+	float:left;
+	font-family: arial;
+	font-size: 16px;
+	color: white;
+	line-height: 3;
+	cursor:pointer;
+} 
+
+.main-container{
+   padding-top:40px;
+   
+}	
+
+.main-container h2{
+	
+	font-family: Geneva;
+	font-size: 45px;
+	color: black;
+	line-height: 3.8;
+	text-align:center;
+}	
+	  
+	  
+/*Signup*/
+
+.signup-form{
+     width: 400px;
+	 margin: 0 auto;
+	 padding-top: 30px;
+}
+
+.signup-form  input  {
+	  width: 90%;
+	  height: 40px;
+	  padding: 0px 5%;
+	  margin-bottom: 4px;
+	  border: none;
+	  background-color :#ccc;
+	  font-family: arial;
+	  font-size: 16px;
+	  color: #111;
+	  line-height: 63px;
+}
+
+.signup-form  button  {
+	  display: block;
+	  margin: 0 auto;
+	  width: 30%;
+	  height: 40px;
+	  border: none;
+	  background-color :#222;
+	  font-family: arial;
+	  font-size: 16px;
+	  color: white;
+	  cursor: pointer;
+}
+
+.signup-form  button:hover  {
+	  background-color :#111;
+}
+.main-content{
+	display : block;
+	width : 500px;
+	margin : auto;
+	padding-top: 70px;
+}
+
+
+.main-content h1{
+     font-weight : bolder;
+     line-height : 4;
+     color : #ffffff;
+     text-align : center-left;
+     font-family : cursive;
+}
+
+.main-content input{
+	width : 90%;
+}
+
+
+.main-content button{
+	width : 30%;
+	cursor : pointer;
+}
+
+table, td, th {    
+    border: 1px;
+    text-align: left;
+	font-family : cursive;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+	padding-bottom:20px;
+}
+  th{
+    background-color: grey;
+    color: white;
+	padding:15px;
+  }	
+ td {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+.main-content1{
+	display : block;
+	width : 500px;
+	margin : auto;
+	margin-left: 500px;
+	padding-top: 25px;
+}
+
+
+.main-content1 h1{
+     font-weight : bolder;
+     line-height : 2;
+     color : #151414;
+     text-align : center;
+     font-family : cursive;
+     padding-right:5px;
+}
+
+.main-content1 input{
+	width : 90%;
+}
+
+
+.main-content1 button{
+	width : 30%;
+	cursor : pointer;
+}
+ .main-content1 form input {
+	  float: left;
+	  width: 140px;
+	  height: 30px;
+	  padding: 0px 10px;
+	  margin-right: 10px;
+	  border: none;
+	  background-color :#fff;
+	  font-family: arial;
+	  font-size: 16px;
+	  color: #111;
+	  line-height: 63px;
+}
+
+.align h1{
+    font-size: larger;
+    font-style: cursive;
+    margin-left: 500px;
+    padding-top: 30px;
+}
+
+.align1 h1{
+	display: block;
+	width:200px;
+	height:20px;
+    font-size: larger;
+    font-style: cursive;
+    margin-left: 500px;
+    padding-top: 10px;
+	background-color : black;
+}
+	
